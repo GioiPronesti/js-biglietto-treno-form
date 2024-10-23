@@ -16,6 +16,7 @@ Il recap dei dati e l'output del prezzo finale, andranno quindi stampati in pagi
 
 console.log("hello console");
 
+
 // 1) INPUT  acquisisco degli input in ingresso dal utente e stampo il console il loro valore
 const userAge = parseFloat(prompt("Inserisci la tua età "));
 const userKm = parseInt(prompt("Inserisci i chilometri che vuoi percorrere"));
@@ -48,3 +49,9 @@ totalPrice = startPrice - discountPrice;
 console.log("il prezzo finale ammonta a euro:", totalPrice);
 
 
+// Milestone 1 preparo gli elementi che mi serviranno per il form
+
+const passengerAge = document.querySelector('.input-age')
+const passengerKm = document.querySelector('.input-km')
+
+const btnForTicket = document.getElementById('show-ticket')
